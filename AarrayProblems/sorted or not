@@ -1,0 +1,11 @@
+//program to check an array sorted or not
+function sortedArray(arr){
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]<arr[i+1]){
+            return false
+        }
+    }
+    return true
+}
+let array=[9,10,7,6,5]
+console.log(sortedArray(array))
