@@ -1,0 +1,19 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+/* *    java program to print right Angled Triangle
+   **
+   ***
+   ****    */
+   
+   let n=4;
+   for(let i=1;i<=n;i++){
+       
+       for(let j=1;j<=i;j++){
+           
+           process.stdout.write("*");
+           
+       }
+       process.stdout.write("\n");
+   }
+   
+console.log("Try programiz.pro");
