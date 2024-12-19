@@ -11,7 +11,7 @@
            process.stdout.write("*");
            
        }
-       process.stdout.write("*\n");
+       process.stdout.write("\n");
    }
    
 console.log("Try programiz.pro");
