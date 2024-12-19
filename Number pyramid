@@ -1,0 +1,64 @@
+// Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+// two solutions are here, one is my first attempt, another is improvement
+
+let n = 5
+let step 
+for(let i=1; i<=n;i++){
+    process.stdout.write(" ".repeat(n-i));
+    step=0
+    for(let j=1;j<=i;j++){
+        
+            process.stdout.write((j).toString() + " ")
+              step++
+             }
+             
+            for(let k=step;k>=1;k--){
+                 
+              if(k!==i){
+                 process.stdout.write((k).toString() + " ")  
+              }
+           
+                 
+             }
+    
+    console.log(" ")
+}
+
+
+
+
+
+
+output
+
+     1  
+   1 2 1  
+  1 2 3 2 1  
+ 1 2 3 4 3 2 1  
+1 2 3 4 5 4 3 2 1  
+
+note: the step count is unnecessary since using i is the better solution
+
+
+
+
+let n = 5
+ 
+for(let i=1; i<=n;i++){
+    process.stdout.write(" ".repeat(n-i));
+   
+    for(let j=1;j<=i;j++){
+        
+            process.stdout.write((j).toString() + " ")
+              step++
+             }
+             
+            for(let k=i-1;k>=1;k--){
+                 
+                   process.stdout.write((k).toString() + " ")  
+            
+                  }
+    
+    console.log(" ")
+}
